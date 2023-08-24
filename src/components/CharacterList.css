@@ -1,0 +1,38 @@
+/* CharacterList.css */
+.character-list {
+  text-align: center;
+  padding: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.character-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+}
+
+.character-card img {
+  max-width: 100px;
+  height: auto;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

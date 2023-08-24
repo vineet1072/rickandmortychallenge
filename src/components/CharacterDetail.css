@@ -1,0 +1,11 @@
+/* CharacterDetail.css */
+.character-detail {
+  text-align: center;
+  padding: 20px;
+}
+
+.character-detail img {
+  max-width: 300px;
+  height: auto;
+  margin: 20px 0;
+}
